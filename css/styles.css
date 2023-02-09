@@ -1,7 +1,10 @@
 @media only screen and (max-width: 964px) {
 
    body{
-		background-color:rgba(155,155,155,0.9);
+		background-color:rgba(15,15,15,0.9);
+		
+		/* background-color:rgba(155,155,155,0.9); */
+		
 		zoom: initial !important;
 	}
 	h3{
@@ -60,12 +63,12 @@
 		border: 1px solid black;
 		margin-top:10px;
 		width:100%;	
-		background-color:rgba(20,5,5,0.9);	
+		background-color:rgba(180,185,200,1);	
 		padding-top:10px;
 		background-repeat:no-repeat;
 		background-position:center;
 		padding-bottom:10px;
-		border-radius:0px 0px 10px 10px;
+		border-radius:10px 10px 10px 10px;
 		background-size:840px;
 		
 	}
@@ -77,25 +80,32 @@
 		background-position:center;
 		background-repeat:no-repeat;
 		/* background-color:rgba(150,150,150,0.1); */
-		color:black;
-		text-shadow:1px 1px 1px white;
+		
+		/* text-shadow:1px 1px 1px black; */
 	}
 	.area_link{
-		color:black;
+		color:white;
+		text-shadow:1px 1px 1px black;
 		padding-top:10px;
 		margin:2px;
-		width:99.2%;
+		width:95%;
+		
 		height:45px;
 		border-radius:10px;
-		font-family:Comic Sans MS, Comic Sans, cursive;
+		font-family:arial;
 		font-size:22px;
 		cursor:pointer;
 	}
 	.area_link:hover{
 		color:white;
 		border: 1px solid white;
-		background-color:rgba(20,20,20,0.5);
+		text-shadow:1px 1px 1px black;
+		background-color:rgba(15,15,15,0.9);
+		
 	}
+	
+	
+	
 	a{
 		text-decoration:none;
 		color:black;
