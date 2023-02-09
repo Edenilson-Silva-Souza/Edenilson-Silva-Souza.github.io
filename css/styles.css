@@ -27,7 +27,9 @@
 		padding-top:13px;
 		font-family:Comic Sans MS, Comic Sans, cursive;
 		font-size:15pt;
-		height:265px;
+		
+		overflow-y:auto;
+		height:235px;
 		width:100%;
 		
 	}
@@ -68,25 +70,25 @@
 		
 	}
 	#image_link{
-		width:60%;
+		/* width:100%; */
 		border-radius:10px;
 		background-image:url("../imgs/gabriel.png");
 		background-size:200px;
 		background-position:center;
 		background-repeat:no-repeat;
-		background-color:rgba(150,150,150,0.7);
+		/* background-color:rgba(150,150,150,0.1); */
+		color:black;
+		text-shadow:1px 1px 1px white;
 	}
 	.area_link{
 		color:black;
 		padding-top:10px;
 		margin:2px;
-		border: 1px solid black;
 		width:99.2%;
 		height:45px;
 		border-radius:10px;
 		font-family:Comic Sans MS, Comic Sans, cursive;
 		font-size:22px;
-		
 		cursor:pointer;
 	}
 	.area_link:hover{
