@@ -39,7 +39,7 @@
 	
 	#area_Imagem{
 		margin-top:5px;
-		width:275px;
+		width:100%;
 		color:white;
 		justify-content:center;
 		background-size:250px;
@@ -51,12 +51,8 @@
 	}
 	figcaption{
 		border-radius:15px;
-		border: 1px solid black;
-		background-color:rgba(20,20,20,0.9);
+		text-shadow:1px 1px 1px black;
 	}
-	
-	
-	
 	
 	#sheetToDraw2{
 		border: 1px solid black;
