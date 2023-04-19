@@ -1,5 +1,11 @@
-@media only screen and (max-width: 964px) {
+object{
+		background-color:#aa0;
+			width:99%;
+			height:500px;
+	}
 
+@media only screen and (max-width: 964px) {
+	
    body{
 		background-color:rgba(15,15,15,0.9);
 		
@@ -75,7 +81,7 @@
 	#image_link{
 		/* width:100%; */
 		border-radius:10px;
-		background-image:url("../imgs/gabriel.png");
+		/* background-image:url("../imgs/gabriel.png"); */
 		background-size:200px;
 		background-position:center;
 		background-repeat:no-repeat;
@@ -230,7 +236,7 @@
 	#image_link{
 		width:60%;
 		border-radius:10px;
-		background-image:url("../imgs/gabriel.png");
+		/* background-image:url("../imgs/gabriel.png"); */
 		background-size:200px;
 		background-position:center;
 		background-repeat:no-repeat;
