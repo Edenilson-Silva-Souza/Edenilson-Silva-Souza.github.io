@@ -56,7 +56,7 @@ function dialog(){
 	if(milissegundos<=0){
 		milissegundos=0;
 	}
-	if(document.getElementById("area_mensagens").innerHTML.length==size){
+	if(document.getElementById("area_mensagens").innerHTML.length>=size){
 		return false;
 	}
 	window.requestAnimationFrame(dialog);	
