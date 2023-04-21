@@ -32,7 +32,7 @@ object{
 	#area_mensagens{
 		padding-top:13px;
 		font-family:Arial;
-		font-size:15pt;
+		font-size:14pt;
 		background:#aaa;
 		overflow-y:auto;
 		height:235px;
@@ -193,7 +193,7 @@ object{
 		border-radius:10px;
 		/* font-family:Comic Sans MS, Comic Sans, cursive; */
 		font-family:Arial;
-		font-size:22px;
+		font-size:14px;
 		width:100%;
 		/* text-align:center; */
 		background:#aaa;

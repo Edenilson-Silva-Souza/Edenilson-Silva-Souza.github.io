@@ -53,7 +53,7 @@ function dialog(){
 	
 	pointer2++;
 	}
-	if(milissegundos<=0){
+	if(milissegundos<=2){
 		milissegundos=0;
 	}
 	if(document.getElementById("area_mensagens").innerHTML.length>=size){
