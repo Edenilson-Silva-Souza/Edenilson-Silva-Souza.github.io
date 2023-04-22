@@ -13,6 +13,11 @@ object{
 	h3{
 		color:#fff;
 	}
+	
+	a:hover{
+		text-decoration:underline;
+		/* color:white; */
+	}
 	#sheetToDraw {
 		border: 1px solid black;
 		padding-top:10px;
@@ -96,10 +101,10 @@ object{
 		cursor:pointer;
 	}
 	.area_link:hover{
-		color:white;
-		border: 1px solid white;
+		color:black;
+		/* border: 1px solid white; */
 		text-shadow:1px 1px 1px black;
-		background-color:rgba(15,15,15,0.9);
+		/* background-color:rgba(15,15,15,0.9); */
 		
 	}
 	
@@ -164,6 +169,10 @@ object{
 	}
 	h3{
 		color:#fff;
+	}
+	a:hover{
+		text-decoration:underline;
+		color:white;
 	}
 	#sheetToDraw {
 		border: 1px solid black;
